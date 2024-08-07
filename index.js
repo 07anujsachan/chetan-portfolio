@@ -74,10 +74,10 @@ ScrollReveal({
 let downloadCVBtn = document.getElementById("cv-btn");
 
 downloadCVBtn.addEventListener("click", () => {
-  const pdfUrl = "anujCV.pdf";
+  const pdfUrl = "chetanCV.pdf";
   const link = document.createElement("a");
   link.href = pdfUrl;
-  link.download = "anujCV.pdf";
+  link.download = "chetanCV.pdf";
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);

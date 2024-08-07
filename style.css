@@ -363,7 +363,27 @@ span {
   border-bottom: 0.6rem solid var(--main-color);
   transition: 0.5s ease;
 }
-
+.skills-box {
+  font-size: 2rem;
+  margin-top: 3rem;
+  height: 8rem;
+  flex: 1 1 30rem;
+  background: var(--bg-color);
+  padding: 3rem 2rem 4rem;
+  border-radius: 2rem;
+  box-shadow: 0 0.1rem 0.5rem var(--shadow-color);
+  text-align: center;
+  border-top: 0.6rem solid var(--main-color);
+  border-bottom: 0.6rem solid var(--main-color);
+  transition: 0.5s ease;
+}
+.skills-box:hover {
+  box-shadow: 0 0.1rem 2rem var(--shadow-color);
+  transform: scale(1.08);
+}
+.company-img {
+  width: 4rem;
+}
 .services-container .services-box:hover {
   box-shadow: 0 0.1rem 2rem var(--shadow-color);
   transform: scale(1.02);
@@ -813,6 +833,7 @@ span {
     position: fixed;
     top: 450px;
     left: 0;
+    visibility: hidden;
     width: 100%;
   }
 
@@ -846,6 +867,7 @@ span {
     position: fixed;
     width: 670px;
     height: 670px;
+
     z-index: -1;
   }
   .skills-grid {
